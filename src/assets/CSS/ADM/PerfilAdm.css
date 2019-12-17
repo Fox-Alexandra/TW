@@ -95,7 +95,7 @@
      color: white;
      font-weight: bold;
      width: 90px;
-     height: 30px;
+     height: 35px;
  }
  
  .botaofinal{
@@ -109,7 +109,7 @@
      display: flex;
      justify-content: center;
      align-content: center;
-     margin: auto;
+     margin: -.5em;
  }
  input[type=text] {
     width: 100vw;

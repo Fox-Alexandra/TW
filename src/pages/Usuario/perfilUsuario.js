@@ -28,18 +28,31 @@ class usuarioInteresse extends Component {
                         <h1>Perfil</h1>
                     </div>
                     <div class="canto_direito">
-                        <ul>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212 </a></li>
-                        </ul>
+                    <form id="box-form">
+                            <div id="form1">
+                                <label>Nome:</label>
+                                <input type="text" name="nomeCompleto" className="nomeUser" placeholder=" Nome Completo" />
+
+                                <label>Alterar E-mail:</label>
+                                <input type="text" name="alterEmail" className="emailUser" placeholder=" Insira uma nova senha" />
+
+                                <label>Confirme seu E-mail:</label>
+                                <input type="text" name="alterConfEmail" className="cEmailUser" placeholder=" Confirme  sua senha" />
+                            </div>
+
+                            <div id="form2">
+
+                                <label id="idEmail">Alterar Senha:</label>
+                                <input type="text" name="senhaUser" className="alterarSenha" placeholder=" Insira um novo e-mail" />
+
+                                <label id="idConfEmail">Confirme sua Senha:</label>
+                                <input type="text" name="confirsenha" className="confSenha" placeholder=" Confirme seu e-mail" />
+
+                                <div className="botaofinal">
+                                    <button className="btnFinal"><p>Atualizar</p></button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </section>
             </main>

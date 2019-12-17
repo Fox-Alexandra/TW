@@ -295,35 +295,3 @@
     text-decoration-line: underline;
 }
 
-
-@media screen and (max-width: 376px){
-/*Perfil Usario notificaçao*/
-.logo1 {
-    display: none;
-}
-
-.buscar1 {
-    width: 25vw;
-}
-
-#buscar1 {
-    width: 78vw;
-}
-
-.perfil {
-    width: 100vw;
-    justify-content: center;
-} 
-
-.perfil img {
-    max-width: 27.7vw;
-}
-
-.nome_usuario {
-    font-size: 0.8em;
-}
-
-.texto {
- display: none;   
-}/*fim Perfil Usuario Notificação*/
-}
