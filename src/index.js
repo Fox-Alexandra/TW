@@ -9,7 +9,7 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import Login from './pages/Login/Login';
 
 //importando tela cadastro
-// import Cadastro from './pages/Cadastro/Cadastro';
+import Cadastro from './pages/cadastro/Cadastro';
 
 //importando tela home
 import Home from './pages/Home/home';
@@ -48,7 +48,7 @@ const Ways = (
                 <Route exact path = "/" component = {Login}/>
 
                 {/* Criando rota tela cadastro */}
-                {/* <Route path = "/cadastro" component = {Cadastro}/> */}
+                <Route path = "/cadastro" component = {Cadastro}/>
 
                 {/* Criando rota tela home */}
                 <Route path = "/home" component = {Home}/>

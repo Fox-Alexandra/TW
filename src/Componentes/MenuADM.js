@@ -24,7 +24,7 @@ function MenuAdm() {
                 {/* <!--Menu superior--> */}
                     <nav id="menu_base1">
                         <div className="logo1">
-                            <a href="#"><img src={logo} alt="Logo TWmarketplace"/></a>
+                            <Link to="/home"><img src={logo} alt="Logo TWmarketplace"/></Link>
                         </div>
             
                         <div className="BarraPesquisa1">
@@ -38,7 +38,7 @@ function MenuAdm() {
                         <div className="barramenu1">
                             <ul>
                                 <li><Link to = "/home" className="minhaconta1">Home</Link></li>
-                                <li><a href="#" className="sair1">Sair</a></li>
+                                <li><Link to= "/" className="sair1">Sair</Link></li>
                             </ul>
                         </div>
                     </nav>

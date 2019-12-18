@@ -5,6 +5,7 @@ import { parseJwt } from '../../services/auth'
 import api from '../../services/Api';
 
 import logo from '../../assets/imagens/logo1.png';
+import { Link } from 'react-router-dom';
 
 
 class Login extends Component {
@@ -106,15 +107,15 @@ class Login extends Component {
                                 </div>
 
                                 <div className="entre1">
-                                    <button  class="border-0" onClick={this.realizarLogin.bind(this)} type = "submit">Entrar</button>
+                                    <Link to = "/home"><button  class="border-0" onClick={this.realizarLogin.bind(this)} type = "submit">Entrar</button></Link>
                                 </div>
 
                                 <div className="cadastro">
-                                    <a href="../Editado-Tw/cadastro.html">Cadastre-se Aqui</a>
+                                    <Link to = "/cadastro">Cadastre-se Aqui</Link>
                                 </div>
 
                                 <div className="login_admin">
-                                    <a href="../Editado-Tw/Deshboard.html">Login Admin</a>
+                                    <Link to= "/perfiladm">Login Admin</Link>
                                 </div>
 
                             </div>

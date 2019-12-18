@@ -1,5 +1,9 @@
 import React, {Component} from 'react'; 
 import '../../assets/CSS/Cadastro/Cadastro.css';
+import logo from '../../assets/imagens/logo1.png';
+
+
+
 
 class Cadastro extends Component {
 
@@ -59,17 +63,17 @@ atualizaEstado = (event) => {
                                 <h1 className="h1topo"> Crie sua conta na</h1>
 
                                 <div className="logo_twc">
-                                    <img src={require("../../assets/img/logo.png")} alt=""/>
+                                    <img src={logo} alt=""/>
                                 {/* <!-- Div para imagem dentro do campo de login --> */}
                             </div>
 
                             <form id="formulario" onSubmit = {this.cadastrarUsuario}>
 
                                 {/* <!-- Tag criada para criar formulário --> */}
-                                <input type="nome" name="nome" id="iNome" placeholder="Nome" size="15" maxlength="50" required="required" onChange = {this.atualizaEstado.bind(this)}/> 
+                                <input type="text" name="nome" id="iNome" placeholder="Nome" size="15" maxlength="50" required="required" onChange = {this.atualizaEstado.bind(this)}/> 
                                 {/* <!-- Input criado para usuário inserir o nome para acesso --> */}
 
-                                <input type="email" name="email" id="iEmail" placeholder="Email" size="15" maxlength="50" required="required" onChange = {this.atualizaEstado.bind(this)}/> 
+                                <input type="text" name="email" id="iEmail" placeholder="Email" size="15" maxlength="50" required="required" onChange = {this.atualizaEstado.bind(this)}/> 
                                 {/* <!-- Input criado para usuário inserir o email para acesso --> */}
 
                                 <input type="password" name="senha" placeholder="Senha" size="15" maxlength="50" required="required" onChange = {this.atualizaEstado.bind(this)}/> 

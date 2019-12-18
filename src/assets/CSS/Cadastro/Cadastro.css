@@ -1,7 +1,7 @@
 .logo_twc{ /* Edição da imagem de logo */ 
     width: 100vw;
     max-width: 10vw;
-    margin-top: .2em;
+    margin-top: -1.9em;
 }
 .logo_twc img{ /* Edição da imagem de logo */ 
     width: 100vw;
@@ -14,24 +14,24 @@
     max-width: 30vw;
 }
 #formulario input[name="nome"]{ /* Edição do campo nome */ 
-    margin-top: 1.5em;
+    margin-top: 1em;
     width: 100vw;
     max-width: 30vw;
 }
 #formulario input[name="senha"]{ /* Edição do campo senha  */ 
-    margin-top: 0.3125em;
+    margin-top: -0.6875em;
     margin-bottom: 0.0625em;
     width: 100vw;
     max-width: 30vw;
 }
 #formulario input[name="email"]{ /* Edição do campo email  */ 
-    margin-top: 0.3125em;
+    margin-top: -0.6875em;
     margin-bottom: 0.0625em;
     width: 100vw;
     max-width: 30vw;
 }
 #formulario input[name="tCSenha"]{ /* Edição do campo Conf. senha  */ 
-    margin-top: 0.3125em;
+    margin-top: -0.6875em;
     margin-bottom: 0.0625em;
     width: 100vw;
     max-width: 30vw;
@@ -52,6 +52,7 @@
 .campo1 h1{
     margin-left: .1em;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 .criar_conta{
     display: flex;
@@ -85,11 +86,11 @@ button{
 }
 .termo{
     font-size: 0.725em;
-    margin-top: 2em;
+    margin-top: 1em;
     width: 31vw;
 }
 #background{
-    background-image: linear-gradient(rgb(29,38,113,0.8), rgb(92,225,230,0.6), rgb(241,105,132,1)), url('../img/back.jpeg');
+    background-image: linear-gradient(rgb(29,38,113,0.8), rgb(92,225,230,0.6), rgb(241,105,132,1)), url('../../imagens/back.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;   

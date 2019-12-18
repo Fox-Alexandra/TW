@@ -37,8 +37,8 @@ function Menu() {
                 {/* <!--Menu superior--> */}
                 <nav id="menu_superior">
                     <div className="logo">
-                        <a href="../Editado-Tw/index.html"><img src={logo}
-                        alt="Logo TWmarketplace"/></a>
+                        <Link to = "/home"><img src={logo}
+                        alt="Logo TWmarketplace"/></Link>
                     </div>
 
                     <div className="BarraPesquisa">
@@ -51,11 +51,11 @@ function Menu() {
 
                     <div className="icones_compras_mensagem">
 
-                        <Link to = "/perfiladminteresse">
+                        <Link to = "/perfilusuariointeresse">
                             <img id="sacola_compras" src={compras}alt="Sacola de pedidos" />
                         </Link>
 
-                        <Link to = "/perfiladmnotificacoes">
+                        <Link to = "/perfilusuarionotificacoes">
                             <img id="mensagens" src={menssage} alt="Notificações"/>
                         </Link>
 
@@ -63,8 +63,8 @@ function Menu() {
 
                     <div className="minhaconta_sair">
                         <ul>
-                            <li><Link to ="/perfiladm" className="minhaconta"><span>Minha Conta</span></Link></li>
-                            <li><a href="../Editado-Tw/login.html" className="botao_sair">Sair</a></li>
+                            <li><Link to ="/perfilusuario" className="minhaconta"><span>Minha Conta</span></Link></li>
+                            <li><Link to ="/" className="botao_sair">Sair</Link></li>
                         </ul>
                     </div>
                 </nav>

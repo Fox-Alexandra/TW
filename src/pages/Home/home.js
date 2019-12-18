@@ -29,23 +29,23 @@ class Home extends Component {
             <div id="containers">  
                 <div className="Container">
                     <div className="grid">
-                        <a href="../Editado-Tw/DescriçaoProduto.html"><img src={notebook} alt=""/></a>
+                        <Link to = "/descricaoproduto"><img src={notebook} alt=""/></Link>
                         <span className="valor">R$000</span>
                     </div>
                     <div className="grid">
-                        <a href="#"><img src={notebook} alt=""/></a>
+                        <Link to = "/descricaoproduto"><img src={notebook} alt=""/></Link>
                         <span className="valor">R$000</span>
                     </div>
                     <div className="grid">
-                        <a href="#"><img src={notebook} alt=""/></a>
+                        <Link to = "/descricaoproduto"><img src={notebook} alt=""/></Link>
                         <span className="valor">R$000</span>
                     </div>
                     <div className="grid">
-                        <a href="#"><img src={notebook} alt=""/></a>
+                        <Link to = "/descricaoproduto"><img src={notebook} alt=""/></Link>
                         <span className="valor">R$000</span>
                     </div>
                     <div className="grid">
-                        <a href="#"><img src={notebook} alt=""/></a>
+                        <Link to = "/descricaoproduto"><img src={notebook} alt=""/></Link>
                         <span className="valor">R$000</span>
                     </div>
                     <div className="grid">   
@@ -55,7 +55,7 @@ class Home extends Component {
                 </div>
                 {/* <!--Fim container--> */}
                 <div className="grid-8">    
-                    <a href="#"><img src={notebook} alt=""/></a>
+                    <Link to = "/descricaoproduto"><img src={notebook} alt=""/></Link>
                     <span className="valor_Maior">R$000</span>
                 </div>  
             </div>
